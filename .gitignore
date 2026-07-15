@@ -1,0 +1,48 @@
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Logs, caches, dependencies, and build output
+*.log
+logs/
+tmp/
+temp/
+.cache/
+.gradle/
+node_modules/
+vendor/
+dist/
+build/
+coverage/
+.next/
+.turbo/
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Test output
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Infrastructure state and local overrides
+*.tfstate
+*.tfstate.*
+.terraform/
+terraform.tfvars
+terraform.tfvars.json
+*.tfplan
+
+# Docker local overrides
+docker-compose.override.yml
