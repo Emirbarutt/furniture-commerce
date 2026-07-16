@@ -1,0 +1,5 @@
+-- PostgreSQL extensions required by subsequent Flyway migrations.
+
+CREATE EXTENSION IF NOT EXISTS citext;
+CREATE EXTENSION IF NOT EXISTS btree_gist;
+
